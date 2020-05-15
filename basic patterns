@@ -1,0 +1,97 @@
+Program #1:
+while row>=1:
+    column = 5
+    while column>=row:
+        print(column,end='')
+        column-=1
+    print()
+    row-=1
+    
+Program #2: 
+row = 5
+value = 1
+while row>=1:
+    column = 5
+    while column>=row:
+        print(value,end='')
+        value+=1
+        column-=1
+    print()
+    row-=1
+
+
+Program #3: 
+row = 5
+value = 1
+while row>=1:
+    column = 5
+    while column>=row:
+        print(value,end='')
+        value+=1
+        column-=1
+    print()
+    row-=1
+    
+Program #4: 
+row = 1
+column = 5
+while row<=5: 
+    while row<=column:
+        print(column, end=" ")
+        column-=1
+    row+=1
+    column=5
+    print()
+    
+Program #5: 
+ row = 1
+column = 5
+value = 5 
+while row<=column: 
+    while row<=column:
+        print(column, end=" ")
+        column-=1
+    value-=1
+    column = value
+    
+ Program #6: 
+ 
+ value = 91
+row = 1
+column = 1
+while row<=5:
+    while column <=row:
+        print(chr(value), end =" ")
+        value = value + 1
+        column+=1
+    column = 1
+    row+=1
+    print()
+    
+ 
+ Program #7:
+row =1
+while row<=5:
+    value = 65
+    column = 1
+    while column<=row:
+        print(chr(value),end=' ')
+        column+=1
+        value+=1
+    row+=1
+    print()
+    
+ Program #8:
+row =1
+while row<=5:
+    value = 90
+    column = 1
+    while column<=row:
+        print(chr(value),end=' ')
+        column+=1
+        value-=1
+    row+=1
+    print()
+    
+    
+    
